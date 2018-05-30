@@ -6,7 +6,7 @@
       "img": "images/paint.jpg",
       "link": "https://rafaeldwan.github.io/canvas_paint_app/",
       "code": "https://github.com/rafaeldwan/canvas_paint_app/",
-      "notes": "NEW Tree brush! Self-directed project spun off of much simpler LaunchSchool assignment. Features including local save, undo/redo, multiple resizeable brushes. See the <a href=\"https://github.com/rafaeldwan/canvas_paint_app/blob/master/README.md\">readme</a> for a full list. Not for mobile."
+      "notes": "NEW tree brush! Hobby project spun off of much simpler LaunchSchool assignment. Features including local save, undo/redo, multiple resizeable brushes. See the <a href=\"https://github.com/rafaeldwan/canvas_paint_app/blob/master/README.md\">readme</a> for a full list. Not for mobile."
     },
     {
       "title": "React 7 Day Forecast App",
