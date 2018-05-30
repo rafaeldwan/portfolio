@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <base target="_blank">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Hire Rafael Dwan!</title>
+</head>
+<nav class="container-fluid">
+  <a class="btn btn-primary btn-sm" role="button" href="#home">Home</a>
+  <a class="btn btn-primary btn-sm" role="button" href="#projects">Portfolio</a>
+  <a class="btn btn-primary btn-sm" role="button" href="#about">About</a>
+  <a class="btn btn-primary btn-sm" role="button" href="#social">Contact</a>
+</nav>
+
+<body>
+  <section class="home" id="home"></section>
+    <h1>You have chance to hire Rafael Dwan</h1>
+    <h2>Lucky you!</h2>
+    <div class="portraitbar"></div>
+    <h3>Welcome, and relax!</h3>
+  </section>
+  <section class="skills">
+
+    <h4>You can consider your search for a Web Application Developer finished, because you'll get:</h4>
+    <div class="skills-container">
+      <ul>
+        <li>JavaScript:
+          <ul>
+            <li>React &amp; Friends </li>
+            <li>jQuery</li>
+            <li>Handlebars</li>
+            <li>ES5/6/7</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>Ruby:
+          <ul>
+            <li>OOP</li>
+            <li>Sinatra</li>
+            <li>Bundler</li>
+            <li>Yaml</li>
+            <li>ERB</li>
+            <li>Rake</li>
+            <li>Simpletest</li>
+            <li>Heroku</li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>SQL &amp; Relational Databases</li>
+        <li>Not afraid of regex</li>
+
+        <li>CSS3</li>
+        <li>HTML5</li>
+      </ul>
+      <ul>
+        <li>Ready for any framework:
+          <ul>
+            <li>PHP</li>
+            <li>DNS &amp; SSL</li>
+            <li>AWS</li>
+            <li>Python</li>
+            <li>Drupal Admin and Design</li>
+            <li>Analytics</li>
+            <li>Hypercard</li>
+          </ul>
+        </li>
+      </ul>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Sample work</h2>
+    <div class="project-container">
+      <script id="project-template" type="text/x-handlebars">
+        {{#each projects}}
+        <div class="project">
+          <div>
+            <h4>{{title}}</h4>
+            <h5>{{tech}}</h5>
+            {{#if link}}<a href="{{link}}">{{/if}}
+              <img src="{{img}}" alt="{{title}}">
+            {{#if link}}</a>{{/if}}
+            <p>{{{notes}}}</p>
+          </div>
+          <div>
+            {{#if link}}
+              <a href="{{link}}" class="btn btn-default btn-sml" role="button">Live Here</a>
+            {{/if}}
+            {{#if code}}
+              <a href="{{code}}" class="btn btn-default btn-sml" role="button">Code Here</a>
+            {{/if}}
+          </div>
+        </div>
+        {{/each}}
+      </script>
+    </div>
+
+    <!-- <div class="buttons">
+        <button class="left">left</button>
+        <button class="right">right</button>
+    </div> -->
+  </section>
+  <section class="story" id="about">
+    <h3>About Me</h3>
+    <p>Although I've coded since grade school I only recently decided to pursue it as a career. I bought a "be a full stack developer" bundle and, through courses of varying quality, introduced
+      myself to Python, PHP, delved deeper into SQL, HTML, CSS, and after a few months realized I didn't know quite what to
+      do with all this. I needed some feedback, I needed some structure, I needed a way to know I was thoroughly prepared and competitive. My research quickly lead me to <a href="https://launchschool.com">LaunchSchool.</a></p>
+    <p>Over the course of a year I worked through a rigorous curriculum designed at every level to build and test mastery. From
+      'Programming Foundations' through 'DOM and Asynchronous Programming with JavaScript' I learned material to the depth required by complex, demanding projects and intense evaluations. LaunchSchool's curriculum
+      is designed so that the former engineers who run it graduate junior engineers they would want to hire, so their students emerge armed
+      with the tools not to use just the latest framework, but <i>any</i> framework, to work easily with whatever technology becomes popular over a decades-long career.</p>
+      <p>I've gained a foundation in computational thinking, an understanding of scoping, RegEx, consulting the docs, approaching problems systematically - I'm even comfortable with 'this'. After I passed the final, intense assessment, completing the LaunchSchool Core Curriculum, I found myself so intrigued by a presentation on React that I taught it to myself with Azat Mardan's excellent <i>React Quickly</i>, just to cover all my bases.</p>
+      <p>With a tested toolset from an excellent program I'm ready to find a great team, jump in, and get the job done. Contact me, I won't be on the market for long!</p>
+  </section>
+  <section class="social" id="social">
+    <span>Available for hire! Ready to schedule an interview?</span>
+    <div><a href="mailto:rafaeldwan+forhire@gmail.com?subject=I want to hire you">Email</a> | <a href="https://www.linkedin.com/in/rafael-dwan-48431830/">LinkedIn</a> | <a href="https://github.com/rafaeldwan">Github</a></div>
+  </section>
+</body>
+<footer>Hosted on AWS</footer>
+
+</html>

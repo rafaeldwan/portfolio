@@ -1,0 +1,96 @@
+body {
+  margin: 15px;
+  padding-top: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 42;
+}
+
+.portraitbar {
+  background: repeat-x left/contain url('../images/rafael-dwan-portrait.jpg');
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  color: #fff;
+  height: 397px;;
+}
+
+
+ul {
+  width: 210px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;;
+}
+
+div.skills-container ul {
+  padding-left: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+img {
+  box-shadow: lightgrey 2px 2px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.project-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.project {
+  display: flex;
+  border-left: 1px solid lightgrey;
+  border-right :1px solid lightgrey;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 0 5% 10px 15px;
+  position: relative;
+  width: 330px;
+}
+
+
+.social {
+  text-align: center;
+}
+
+@media(max-width: 890px) {
+  .skills-container {
+    justify-content: space-around;
+  }
+  div.skills-container>ul {
+    margin-right: 15px;
+  }
+
+}
+@media(max-width: 496px) {
+  .skills-container {
+    justify-content: start;
+  }
+}
+
+@media(max-width: 435px) {
+  .portraitbar {
+    width: 194px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+  }
+    .skills-container {
+      justify-content: start;
+    }
+  }

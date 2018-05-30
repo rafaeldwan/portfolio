@@ -1,0 +1,105 @@
+{
+  "projects": [
+    {
+      "title": "Paint App",
+      "tech": "JavaScript, jQuery, Handlebars, HTML5 Canvas",
+      "img": "images/paint.jpg",
+      "link": "https://rafaeldwan.github.io/canvas_paint_app/",
+      "code": "https://github.com/rafaeldwan/canvas_paint_app/",
+      "notes": "NEW Tree brush! Self-directed project spun off of much simpler LaunchSchool assignment. Features including local save, undo/redo, multiple resizeable brushes. See the <a href=\"https://github.com/rafaeldwan/canvas_paint_app/blob/master/README.md\">readme</a> for a full list. Not for mobile."
+    },
+    {
+      "title": "React 7 Day Forecast App",
+      "tech": "JavaScript, React, Webpack, Geolocation API",
+      "img": "images/react-weather.jpg",
+      "link": "/forecast",
+      "code": "https://github.com/rafaeldwan/react-weather-app",
+      "notes": "Self-directed project built with React using the Wunderground.com API. Renders simple seven-day forecast with extended information shown per day on click. Uses rough location from IP by default, users can enter city and state, zip, or choose to give access to their location via the Geoloaction API."
+    },
+    {
+      "title": "Penny Poll",
+      "tech": "Ruby, Sinatra, Minitest, Heroku",
+      "img": "images/penny-poll.jpg",
+      "link": "https://penny-poll.herokuapp.com/polls",
+      "code": "https://github.com/rafaeldwan/penny_poll",
+      "notes": "A distributive voting experiment - self-directed project. Users can create polls and assign a number of votes per user. When voting, users can distribute their votes however they wish: all votes in one option, 50/50 or any other way. Results are presented with an attractive 3D pie graph using the Chartkick gem. </br></br> The app, partially an exercise in not using a database (it was done before the PostgreSQL course) skirts Heroku's ephemeral file system by reading/writing its data files to Google Drive using the google_drive gem and a service worker account."
+    },
+
+    {
+      "title": "A Todo App!",
+      "tech": "Ruby, Sinatra, PostgreSQL, Heroku",
+      "img": "images/todo-app.jpg",
+      "link": "https://launchschool-sql-todos.herokuapp.com",
+      "code": "https://github.com/rafaeldwan/sql_todo",
+      "notes": "Wouldn't be a portfolio without a todo app - Attractive and functional LaunchSchool project for Sinatra and SQL courses. "
+    },
+    {
+      "title": "Contact Manager",
+      "tech": "JavaScript, jQuery, Handlebars",
+      "img": "images/contact-manager.jpg",
+      "link": "https://rafaeldwan.github.io/contact-manager",
+      "code": "https://github.com/rafaeldwan/contact-manager/",
+      "notes": "LaunchSchool project (code entirely from scratch). Tagging, filter by tag, real-time search, routing, single-page app."
+    },
+    {
+      "title": "Responsive Blog",
+      "tech": "CSS3, Flexbox",
+      "img": "images/responsive-blog.jpg",
+      "link": "https://rafaeldwan.github.io/responsive-blog/",
+      "code": "https://github.com/rafaeldwan/responsive-blog",
+      "notes": "Responsive CSS utilizing Flexbox. Written from .psd reference."
+    },
+    {
+      "title": "Dynamic Animation",
+      "tech": "Javascript, jQuery animation",
+      "img": "images/dynamic-animation.jpg",
+      "link": "https://rafaeldwan.github.io/ls-220/dynamic_animation/animation.html",
+      "code": "https://github.com/rafaeldwan/ls-220/tree/master/dynamic_animation",
+      "notes": "Expanded from simpler LaunchSchool project, dynamically add shapes with starting and ending points and animate the result. For a good time use \"Add random shapes\" to add 200-300 random shapes then click 'start'."
+    },
+    {
+      "title": "Guess a Word",
+      "tech": "JavaScript, jQuery",
+      "img": "images/guess-a-word.jpg",
+      "link": "https://rafaeldwan.github.io/ls-220/guess_a_word/",
+      "code": "https://github.com/rafaeldwan/ls-220/tree/master/guess_a_word",
+      "notes": "Guess the word before all the apples fall from the tree. LaunchSchool project focusing on events and bindings. Not for mobile."
+    },
+    {
+      "title": "GUI and Forms",
+      "tech": "JavaScript, jQuery, Handlebars",
+      "img": "images/exercises.jpg",
+      "link": "https://rafaeldwan.github.io/exercises/javascript_front_end/",
+      "code": "https://github.com/rafaeldwan/exercises/tree/master/javascript_front_end",
+      "notes": "Collection of GUI and Forms and Validation LaunchSchool exercises. Includes a stopwatch, calculator (which shows the current equation), WYSIWYG editor, multiple-choice quiz, facts about cute animals, and more."
+    },
+    {
+      "title": "JS Utility Library",
+      "tech": "JavaScript",
+      "img": "images/utilities.jpg",
+      "link": "https://rafaeldwan.github.io/ls-220/utility_library_v3/",
+      "code": "https://github.com/rafaeldwan/ls-220/tree/master/utility_library_v3/",
+      "notes": "Handy helper methods hand-crafted to order. Click Live link for description in supplied test page."
+    },
+    {
+      "title": "File-based CMS",
+      "tech": "Ruby, Sinatra, Minitest",
+      "img": "images/cms.jpg",
+      "code": "https://github.com/rafaeldwan/CMS",
+      "notes": "Simple file-based CMS LaunchSchool project with user creation and validation, test suite, good CRUD"
+    },
+    {
+      "title": "Ruby CLI apps",
+      "tech": "Ruby",
+      "img": "images/ruby-etc.jpg",
+      "notes": "Some CLI Ruby apps. <a href=\"https://github.com/rafaeldwan/ls-120/blob/master/tic_tac_toe_oop.rb\">Tic Tac Toe</a> (OOP, multiple selectable difficulties including unbeatable), <a href=\"https://github.com/rafaeldwan/ls-120/blob/master/twenty_one_oop.rb\">21</a> (OOP), <a href=\"https://github.com/rafaeldwan/ls-120/blob/master/rps_oop.rb\">Rock Paper Scissors Lizard Spock</a>, <a href=\"https://github.com/rafaeldwan/exercises/blob/master/120_OOP/poker.rb\">Poker</a> (deals then identifies a hand). <a href=\"https://github.com/rafaeldwan/exercises\">Many more exercises.</a>"
+    },
+    {
+      "title": "Codewars",
+      "tech": "Ruby, JavaScript, SQL",
+      "img": "images/codewars.jpg",
+      "link": "https://www.codewars.com/users/rdwan",
+      "notes": "4 kyu CodeWarrior"
+    }
+  ]
+}
